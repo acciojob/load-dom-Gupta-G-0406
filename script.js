@@ -1,3 +1,3 @@
-window.addEventListener('load', function() {
-  console.log("DOM load success");
+document.addEventListener("DOMContentLoaded", function () {
+  document.body.innerText = "DOM load success";
 });
